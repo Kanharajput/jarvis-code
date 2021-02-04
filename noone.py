@@ -1,12 +1,12 @@
-int=rewa(input("please give a number")
-      if rewa>=10:
+int=no(input("please give a number")
+      if no>=10:
       print("ok fine")
 
-      elif rewa>=50:
+      elif no>=50:
       print("good")
       break
 
-      else rewa>=80:
+      else no>=80:
       print("well!done")
       break
 
