@@ -1,6 +1,6 @@
 import os
-rewa="/home/kanha/Music"
-songs=os.listdir(rewa)
+play="/home/kanha/Music"
+songs=os.listdir(play)
 print(songs)
-os.startfile(os.path.join(rewa,songs[0]
+os.startfile(os.path.join(play,songs[0]
     
