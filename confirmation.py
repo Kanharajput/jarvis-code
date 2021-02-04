@@ -1,13 +1,13 @@
 import speech_recognition as sr
-rewa=sr.Recognizer()
+good=sr.Recognizer()
 mic=sr.Microphone()
  
 with mic as source:
 
     rewa.adjust_for_ambient_noise(source,duration=1)
-    audio=rewa.listen(source)
+    audio=good.listen(source)
 
-text=rewa.recognize_google(audio)
+text=good.recognize_google(audio)
 print(text)
 
 
