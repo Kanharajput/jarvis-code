@@ -4,7 +4,7 @@ r=sr.Recognizer()
 mic=sr.Microphone()
 with mic as source:
            audio=r.listen(source)
-rewa=r.recognize_google(audio)
+speak=r.recognize_google(audio)
 print("kanha said-")
-print(rewa)
+print(speak)
 
